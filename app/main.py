@@ -39,5 +39,5 @@ app.include_router(negotiation_routes.router, prefix="/api/negotiations", tags=[
 app.include_router(notification_routes.router, prefix="/api/notifications", tags=["Notifications"])
 app.include_router(order_routes.router, prefix="/api/orders", tags=["Orders"])
 app.include_router(vendor_routes.router, prefix="/api/vendors", tags=["Vendors"])
-app.include_router(product_routes.router, prefix="/api/produits", tags=["Produits"])
+app.include_router(product_routes.router, prefix="/api/products", tags=["Products"])
 
